@@ -1,0 +1,81 @@
+############################################
+# Build artifacts
+############################################
+build/
+out/
+cmake-build-*/
+CMakeFiles/
+CMakeCache.txt
+Makefile
+*.ninja
+*.ninja_deps
+*.ninja_log
+
+############################################
+# macOS
+############################################
+.DS_Store
+.AppleDouble
+.LSOverride
+Icon?
+._*
+
+############################################
+# Xcode
+############################################
+*.xcworkspace
+*.xcodeproj
+xcuserdata/
+DerivedData/
+*.pbxuser
+*.mode1v3
+*.mode2v3
+*.perspectivev3
+*.swp
+
+############################################
+# Compiled binaries
+############################################
+*.o
+*.a
+*.so
+*.dylib
+*.dll
+*.exe
+*.out
+*.app
+*.dSYM
+
+############################################
+# Logs
+############################################
+*.log
+
+############################################
+# IDEs / Editors
+############################################
+.vscode/
+.idea/
+*.code-workspace
+
+############################################
+# CEF / Chromium artifacts
+############################################
+third_party/cef/Release/
+third_party/cef/Debug/
+third_party/cef/build/
+third_party/cef/Resources/
+third_party/cef/Chromium Embedded Framework.framework/
+
+############################################
+# Downloaded or generated dependencies
+############################################
+third_party/**/bin/
+third_party/**/lib/
+
+############################################
+# Temporary files
+############################################
+*.tmp
+*.temp
+*~
